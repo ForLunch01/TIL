@@ -64,3 +64,14 @@ $ git branch -d example
 #### branch 생성하며 이동
 
 $ git checkout -b feature/about
+
+
+
+#### branch 충돌
+
+$ git merge feature/test
+
+- 두 브랜치가 같은 readme.md 파일을 건드린다면
+- merge 시, merge conflict 발생
+- 따라서 수동으로 고쳐야 함
+- 충돌 파일을 알기 위해선 $ git status
