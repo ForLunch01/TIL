@@ -8,4 +8,4 @@ for i in range(n):
 
 d.reverse()
 
-print(d)
+print(*d)
