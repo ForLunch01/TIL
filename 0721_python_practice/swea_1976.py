@@ -10,8 +10,6 @@ T = int(input())
 for t in range(T):
     H1, M1, H2, M2 = map(int, input().split())
     
-    print(H1, M1, H2, M2)
-    
     H3 = H1 + H2
     if H3 > 12:
         H3 = H3 - 12
