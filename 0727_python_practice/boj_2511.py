@@ -22,4 +22,9 @@ if A_sum > B_sum:
 elif A_sum < B_sum:
     print("B")
 else:
-    print("D")
+    if last_win == "A":
+        print("A")
+    elif last_win == "B":
+        print("B")
+    else:
+        print("D")
