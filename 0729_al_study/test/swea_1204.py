@@ -1,6 +1,5 @@
-import sys
-
-sys.stdin = open("test/input.txt", "r")
+#import sys
+#sys.stdin = open("test/input.txt", "r")
 
 T = int(input())
 
